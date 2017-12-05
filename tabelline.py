@@ -1,4 +1,4 @@
 for i in range(1, 11):
-    print "\n"
+    print "\n",
     for a in range(1, 11):
-        print " ", (a*i), " ",
+        print "%5d" % (i*a,),
